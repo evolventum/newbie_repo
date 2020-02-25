@@ -3,26 +3,28 @@
 	<head>
 		<title>LITS HTML</title>
 		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
 		<!-- start header -->
-		<header>
-			<div>
+		<header class="header">
+			<div class="container">
 				<h1>Main header</h1>
 				<h2><small>Second small header</small></h2>
 			</div>
 		</header>
 
 		<!-- start navi -->
-		<nav>
-			<div>
+		<nav class="page_nav">
+			<div class="container">
 				<ul>
 					<li><a href="#">Home</a></li>
 					<li><a href="#">About</a></li>
 					<li><a href="#">Contacts</a></li>
 				</ul>
 				<!-- login form here -->
-				<form action="#">
+				<form action="#" class="login">
 					<input type="text" placeholder="login" required>
 					<input type="password" placeholder="password" required>
 					<input type="submit" value="sign in">
@@ -32,14 +34,14 @@
 
 		<!-- start main -->
 		<main>
-			<div>
+			<div class="container">
 				<!-- image collection -->
-				<h2>Image collection <small>Visual quality</small></h2>
-				<div>
-					<div>
-						<div>
-							<img src="images/profile.jpg" alt="list picture" width="300">
-							<div>
+				<h2 class="coll_title">Image collection <small>Visual quality</small></h2>
+				<div class="collections">
+					<div class="coll_item_outer">
+						<div class="coll_item">
+							<img src="images/profile.jpg" alt="list picture">
+							<div class="coll_text">
 								<h3>List element item</h3>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 								<button>Read more...</button>
@@ -47,10 +49,10 @@
 						</div>
 					</div>
 
-					<div>
-						<div>
-							<img src="images/profile.jpg" alt="list picture" width="300">
-							<div>
+					<div class="coll_item_outer">
+						<div class="coll_item">
+							<img src="images/profile.jpg" alt="list picture">
+							<div class="coll_text">
 								<h3>List element item</h3>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 								<button>Read more...</button>
@@ -58,10 +60,10 @@
 						</div>
 					</div>
 
-					<div>
-						<div>
-							<img src="images/profile.jpg" alt="list picture" width="300">
-							<div>
+					<div class="coll_item_outer">
+						<div class="coll_item">
+							<img src="images/profile.jpg" alt="list picture">
+							<div class="coll_text">
 								<h3>List element item</h3>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 								<button>Read more...</button>
@@ -70,14 +72,14 @@
 					</div>
 				</div>
 				<!-- video collection -->
-				<h2>Image collection <small>Visual quality</small></h2>
-				<div>
-					<div>
-						<div>
+				<h2 class="coll_title">Video collection <small>Visual quality</small></h2>
+				<div class="collections">
+					<div class="coll_item_outer">
+						<div class="coll_item">
 							<video controls>
-								<source src="video/movie.mp4" type="video/mp4">								
+								<source src="video/movie.mp4" type="video/mp4">
 							</video>
-							<div>
+							<div class="coll_text">
 								<h3>List element item</h3>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 								<button>Read more...</button>
@@ -85,12 +87,12 @@
 						</div>
 					</div>
 
-					<div>
-						<div>
+					<div class="coll_item_outer">
+						<div class="coll_item">
 							<video controls>
-								<source src="video/movie.mp4" type="video/mp4">								
+								<source src="video/movie.mp4" type="video/mp4">
 							</video>
-							<div>
+							<div class="coll_text">
 								<h3>List element item</h3>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 								<button>Read more...</button>
@@ -98,12 +100,12 @@
 						</div>
 					</div>
 
-					<div>
-						<div>
+					<div class="coll_item_outer">
+						<div class="coll_item">
 							<video controls>
-								<source src="video/movie.mp4" type="video/mp4">								
+								<source src="video/movie.mp4" type="video/mp4">
 							</video>
-							<div>
+							<div class="coll_text">
 								<h3>List element item</h3>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 								<button>Read more...</button>
@@ -115,8 +117,8 @@
 		</main>
 
 		<!-- start footer -->
-		<footer>
-			<div>
+		<footer class="footer">
+			<div class="container">
 				<p>Copyright evolventum 2020</p>
 			</div>
 		</footer>
