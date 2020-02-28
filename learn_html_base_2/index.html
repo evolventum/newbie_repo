@@ -3,15 +3,44 @@
 <meta charset="utf-8">
 <head>
 	<title>Вивчаємо HTML</title>
+		<style>
+			body{
+                padding: 30px;
+            }
+            nav {
+                background: -webkit-linear-gradient(red, blue); /* For Safari 5.1 to 6.0 */
+                background: -o-linear-gradient(red, blue); /* For Opera 11.1 to 12.0 */
+                background: -moz-linear-gradient(red, blue); /* For Firefox 3.6 to 15 */
+                background: linear-gradient(red, blue); /* Standard syntax (must be last) */
+                display: inline-block;
+            }
+            ul, li{
+                margin: 0;
+                padding: 0;
+            }
+            
+            a {
+                color: white;
+                font-weight: bold;
+            }
+            li {
+                list-style-type: none;
+                padding: 10px;
+                border: 1px solid white;
+                display: inline-block;
+                
+            }
+        </style>
 </head>
-<body>
-	<dl>
-		<dt>HTML.</dt>
-		<dd>Стандартна мова розмітки веб-сторінок в Інтернеті. Більшість веб-сторінок створюються за допомогою мови HTML. Документ HTML оброблюється браузером та відтворюється на екрані у звичному для людини вигляді.</dd>
-	</dl>
-	<dl>
-		<dt>CSS.</dt>
-		<dd>Спеціальна мова, що використовується для опису сторінок, написаних мовами розмітки даних.</dd>
-	</dl>
-</body>
+	<body>
+        <nav>
+            <ul>
+                <li><a href="#">Текст</a></li>
+                <li><a href="#">Текст</a></li>
+                <li><a href="#">Текст</a></li>
+                <li><a href="#">Текст</a></li>
+                <li><a href="#">Текст</a></li>
+            </ul>
+        </nav>
+    </body>
 </html>
